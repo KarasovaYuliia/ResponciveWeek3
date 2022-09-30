@@ -1,27 +1,6 @@
 
 
-  @media (max-width: 576px) {
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-    margin: 0;
-  }
- 
-   h1 {
-      font-size: 48px;
-      line-height: 1.5;
-      
-    }
-  h2 {
-      font-size: 32px;
-      
-    }
-  
-    .img-fluid {
-      display: none;
-    }
-  }
+
 
 h1 {
     font-size: 96px;
@@ -36,6 +15,38 @@ h3 {
     opacity: 0.7;
     text-align: center;
   }
+
+  @media (max-width: 576px) {
+    h1,
+    h2,
+    h3 {
+      text-align: center;
+      margin: 0;
+    }
+   
+    h1 {
+        font-size: 38px;
+        line-height: 1.5;
+        
+      }
+    h2 {
+        font-size: 22px;
+        
+      }
+    
+      .img-fluid {
+        display: none;
+      }
+      .navigation-links a {
+        margin: 20px;
+        width: 70%;
+        border-radius: 4px;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-transform: capitalize;
+        text-align: center;
+      }
+    }
 
 :root {
     --primary-color: #6c63ff;
@@ -69,9 +80,7 @@ h3 {
     flex: 0 0 auto;
     padding: 0 12px;
   }
-.weatherapp {
-    max-width: 70%;
-  }
+
  
  nav {
     margin: 50px;
